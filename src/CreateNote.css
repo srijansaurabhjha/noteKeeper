@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto+Flex:opsz@8..144&family=Ubuntu:wght@300&display=swap');
+
+.createNote{
+    display: flex;
+    justify-content: center;
+}
+
+.createNote>form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    width: 30%;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.createNote>form>input{
+    border: none;
+    outline: none;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.createNote>form>textarea{
+    border: none;
+    outline: none;
+    width: 100%;
+    resize: none;
+    height: 100px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.createNote>form>button{
+    border: none;
+    background-color: #EC9B3B;
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.createNote>form>button:active{
+    transform: scale(0.95);
+}
+
+@media(max-width:1300px){
+  
+    .createNote>form{
+        width: 60%;
+    }
+
+}

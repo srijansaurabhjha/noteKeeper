@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto+Flex:opsz@8..144&family=Ubuntu:wght@300&display=swap');
+
+.note{
+    text-align: justify;
+    max-width: 400px;
+    min-width: 150px;
+    padding: 10px;
+    margin: 0 40px;
+    overflow-x: hidden;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.note_title{
+    font-weight: bold;
+    font-family: 'Roboto Flex', sans-serif;
+    margin-bottom: 7px;
+}
+
+.note_content{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5px;
+}
+
+.note_delete{
+    float:right;
+    border-radius: 50%;
+    background-color: #FF5D5D;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: whitesmoke;
+    font-family: 'Nunito Sans', sans-serif;
+    cursor: pointer;
+}
+
+.note_delete:active{
+    transform: scale(0.9);
+}
