@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/noteKeeper/static/css/main.98ed51a4.css",
+    "main.js": "/noteKeeper/static/js/main.bd1c564e.js",
+    "index.html": "/noteKeeper/index.html",
+    "main.98ed51a4.css.map": "/noteKeeper/static/css/main.98ed51a4.css.map",
+    "main.bd1c564e.js.map": "/noteKeeper/static/js/main.bd1c564e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98ed51a4.css",
+    "static/js/main.bd1c564e.js"
+  ]
+}
